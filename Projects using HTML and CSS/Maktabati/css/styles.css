@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{background-color:black;}
+
+#wrapper{ width: 1000px; background-color: white; margin:0px auto;}
+
+#header{background: url("../maktabati images/header_bg.png") repeat-x; height: 246px;}
+
+#logo{float: right;margin-top: 60px;margin-right: 20px;}
+
+#socialLinkes{padding:188px 0 0 20px; }
+
+#menu{background: url("../maktabati images/menuBg.png") no-repeat;height: 87px ;width: 1000px}
+
+#navbar{float: right;}
+#navbar ul{float: right;list-style: none;}
+#navbar ul li{float: right; height: 55px ; margin: 0 20px;}
+#navbar ul li a{color: #595e62; text-decoration: none; font-family: tahoma; font-size: 14px}
+#navbar ul li:first-child a{color: #b84d1f;}
+#navbar ul li:hover a{color: #b84d1f;}
+#navbar ul li:hover:first-child a{color: #595e62;}
+
+#search{direction: rtl; float: left; margin-left: 20px ; line-height: 57px;}
+#search input[type=text] {height: 30px; width: 207px; padding-right:10px; border:1px solid #b7c1d7; font-size: 15px; font-family: tahoma; color:#beaaaa;}
+#search input[type=submit]{background: url("../maktabati images/search.png") no-repeat;height: 38px;width: 68px; border: 0 }
+
+#content{width: 1000px; clear: both;}
+#rightBar{float: right;width: 190px;margin: 0 20px ;}
+
+#rightMenu{direction: rtl;background: url("../maktabati images/right-menu-bg.png") no-repeat; height: 392px;width: 190px;}
+#rightMenu h1{color: #555555;font-size:20px;text-align: center;padding-top: 15px;margin-bottom: 20px;}
+#rightMenu ul{list-style: url("../maktabati images/arrow.png");} 
+#rightMenu ul li a{text-decoration: none; color: #555555;font-size: 22px;line-height: 135%;} 
+#rightMenu ul li:hover a{color: #b84d1f;text-decoration-line: underline;}
+
+.rightAds{direction: rtl;text-align: center;margin: 10px auto;}
+.rightAds img{height: 266px; width:176px;}
+.rightAds h2{font-family: tahoma; color: #ff0000;font-size: 17px}
+.rightAds h3{font-family: tahoma; color: #555555;font-size: 17px}
+.rightAds a{text-decoration: none; font-family: tahoma; color:#0000ff;font-size: 17px }
+.rightAds a:hover{color: #ff0000;text-decoration-line: underline;}
+#leftContent{width: 770px;float: left;}
+
+.upperAds{direction: rtl;text-align: center;float: right;margin: 15px 0 0 33px;}
+.upperAds img{height: 188px; width:121px;}
+.upperAds h2{font-family: tahoma; color: #ff0000;font-size: 12px}
+.upperAds h3{font-family: tahoma; color: #555555;font-size: 12px}
+.upperAds a{text-decoration: none; font-family: tahoma; color:#0000ff;font-size: 12px }
+.upperAds a:hover{color: #ff0000;text-decoration-line: underline;}
+#lower-left-content{width: 751px;clear: both;min-height: 150px;margin-top: 20px;}
+#headLeft{background: url("../maktabati images/moree.png")no-repeat; width:751px;height: 36px;float: right;margin: 20px -25px 0 0;}
+#headLeft h1{ color: white;line-height: 100%;font-size: 16px;direction: rtl;font-family: tahoma;text-align: right;margin-right: 20px;}
+
+#lower-left-content-body{width: 750p;min-height: 150px;margin-left: 20px;}
+.lowerBook{width: 345px;height: 135px;float: right;margin:20px -20px 10px 40px;direction: rtl;}
+.lowerBook:hover{background-color: antiquewhite;width: 335px;padding-left: 5px;border-radius: 5px;height:135px }
+.lowerBook img{float: right;margin-left: 7px}
+.lowerBook h2{font-size: 11px;font-family: tahoma;color: #555555;margin-top: -5px;line-height: 150%}
+.lowerBook h2 span{color: #ff0000;}
+.lowerBook a{text-decoration: none; font-family: tahoma; color:#0000ff;font-size: 11px;float: left;}
+.lowerBook a:hover{color: #ff0000;text-decoration-line: underline;}
+
+#footer{height: 50px; width: 1000px; clear: both;text-align: center;direction: rtl;color:#555555;font-size: 14px;line-height: 200%;}
+#footer hr{background-color: #b84d1f;height: 5px;border: 0; }
+#footer a{color:#b84d1f;text-decoration: none;font-size: 16px}
+#footer a:hover{text-decoration-line: underline;color:#0000ff; }	
+    
+
+	
